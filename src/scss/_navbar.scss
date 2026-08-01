@@ -1,0 +1,31 @@
+@use "variables" as *;
+
+.cart-btn {
+  border: 2px solid $primary;
+  color: $primary;
+  transition: all $transition;
+
+  &:hover {
+    background-color: $primary;
+    border-color: $primary;
+    color: $white;
+  }
+
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+.nav-link {
+  color: $text;
+  padding: 10px 18px;
+  border-radius: $radius;
+  transition: all $transition;
+
+  &:hover,
+  &.active {
+    background-color: $primary;
+    color: $white !important;
+    transform: scale(1.05);
+  }
+}
