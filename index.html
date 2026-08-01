@@ -197,7 +197,7 @@
           <h2 class="text-center mb-5">Our Services</h2>
 
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-12 col-sm-6 col-lg-4 mb-4">
               <div class="card">
                 <div class="card-body text-center">
                   <i class="bi bi-cup-hot-fill fs-1"></i>
@@ -211,7 +211,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-12 col-sm-6 col-lg-4 mb-4">
               <div class="card">
                 <div class="card-body text-center">
                   <i class="bi bi-box-seam-fill fs-1"></i>
@@ -224,15 +224,15 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-12 col-sm-6 col-lg-4 mb-4">
               <div class="card">
                 <div class="card-body text-center">
                   <i class="bi bi-award-fill fs-1"></i>
                   <h5 class="card-title mt-3">Reward Points</h5>
 
                   <p class="card-text">
-                    Earn reward points with every purchase and enjoy exclusive
-                    benefits.
+                    Earn points with every purchase and enjoy exclusive member
+                    rewards.
                   </p>
                 </div>
               </div>
@@ -247,7 +247,7 @@
           <h2 class="text-center mb-5">Our Products</h2>
 
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-12 col-sm-6 col-lg-4 mb-4">
               <div class="card product-card">
                 <img
                   src="./src/assets/images/products/cappuccino/2.jpg"
@@ -269,7 +269,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-12 col-sm-6 col-lg-4 mb-4">
               <div class="card product-card">
                 <img
                   src="./src/assets/images/products/coffee/2.jpg"
@@ -291,7 +291,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-12 col-sm-6 col-lg-4 mb-4">
               <div class="card product-card">
                 <img
                   src="./src/assets/images/products/turkish-coffee/2.jpg"
@@ -349,19 +349,22 @@
 
           <h5 class="mb-3">Subscribe to our Newsletter</h5>
 
-          <form
-            id="newsletterForm"
-            class="d-flex justify-content-center gap-2 mb-4"
-          >
-            <input
-              id="newsletterEmail"
-              type="email"
-              class="form-control w-50"
-              placeholder="Enter your email"
-              required
-            />
+          <form id="newsletterForm" class="row justify-content-center g-2 mb-4">
+            <div class="col-12 col-md-6">
+              <input
+                id="newsletterEmail"
+                type="email"
+                class="form-control"
+                placeholder="Enter your email"
+                required
+              />
+            </div>
 
-            <button type="submit" class="btn product-btn">Subscribe</button>
+            <div class="col-12 col-md-auto">
+              <button type="submit" class="btn product-btn w-100">
+                Subscribe
+              </button>
+            </div>
           </form>
 
           <hr />
