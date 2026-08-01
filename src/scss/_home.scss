@@ -27,3 +27,42 @@
     }
   }
 }
+
+.services {
+  .card {
+    border: 1px solid $border;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: $transition;
+
+    i {
+      color: $primary;
+      transition: $transition;
+    }
+
+    .card-title {
+      color: $text;
+      font-weight: 600;
+      transition: $transition;
+    }
+
+    .card-text {
+      color: $gray;
+      line-height: 1.7;
+    }
+
+    &:hover {
+      transform: translateY(-8px);
+      border-color: $primary;
+      box-shadow: 0 12px 30px rgba(111, 78, 55, 0.2);
+
+      i {
+        transform: scale(1.15);
+      }
+
+      .card-title {
+        color: $primary;
+      }
+    }
+  }
+}
