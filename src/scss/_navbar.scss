@@ -3,7 +3,7 @@
 .cart-btn {
   border: 2px solid $primary;
   color: $primary;
-  transition: all $transition;
+  transition: $transition;
 
   &:hover {
     background-color: $primary;
@@ -20,7 +20,7 @@
   color: $text;
   padding: 10px 18px;
   border-radius: $radius;
-  transition: all $transition;
+  transition: $transition;
 
   &:hover,
   &.active {
