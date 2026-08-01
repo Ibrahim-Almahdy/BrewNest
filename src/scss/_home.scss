@@ -1,0 +1,29 @@
+@use "variables" as *;
+
+.hero {
+  .carousel-item {
+    position: relative;
+
+    img {
+      height: 500px;
+      object-fit: cover;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-color: rgba(0, 0, 0, 0.35);
+      z-index: 1;
+    }
+  }
+
+  .carousel-caption {
+    z-index: 2;
+
+    h5,
+    p {
+      color: $white;
+    }
+  }
+}
