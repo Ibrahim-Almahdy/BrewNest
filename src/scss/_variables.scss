@@ -1,14 +1,41 @@
+// Colors
 $primary: #6f4e37;
+$primary-dark: #4b2e2b;
+$primary-light: #a67c52;
+
 $secondary: #a67c52;
 $accent: #d4a373;
+
 $background: #f8f5f2;
+
 $text: #2b2b2b;
 $white: #ffffff;
 $gray: #666666;
-$border: #e8e2dc;
 
+$border: #e8e2dc;
+$footer-text: #e8ddd7;
+$footer-border: rgba(255, 255, 255, 0.2);
+
+$overlay: rgba(0, 0, 0, 0.35);
+
+// Typography
 $font-family: "Cairo", sans-serif;
 
-$radius: 12px;
+$fw-normal: 400;
+$fw-medium: 500;
+$fw-semibold: 600;
+$fw-bold: 700;
 
-$transition: 0.6s ease;
+// Border Radius
+$radius-sm: 10px;
+$radius: 12px;
+$radius-lg: 16px;
+
+// Shadows
+$shadow: rgba(0, 0, 0, 0.08);
+$shadow-light: rgba(0, 0, 0, 0.05);
+$shadow-hover: rgba(111, 78, 55, 0.2);
+$focus-shadow: rgba(111, 78, 55, 0.3);
+
+// Animation
+$transition: all 0.6s ease;
