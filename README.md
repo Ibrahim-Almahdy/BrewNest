@@ -12,7 +12,7 @@ A modern, responsive coffee company website built with **HTML5**, **SCSS (Sass)*
 
 # 🚀 Live Demo
 
-](https://coffee-company-rho.vercel.app/)
+https://coffee-company-rho.vercel.app
 ---
 
 # 📂 GitHub Repository
