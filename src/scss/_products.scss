@@ -1,0 +1,83 @@
+@use "variables" as *;
+
+.services {
+  .card {
+    border: 1px solid $border;
+    border-radius: $radius-lg;
+    box-shadow: 0 4px 12px $shadow-light;
+    transition: $transition;
+
+    i {
+      color: $primary;
+      transition: $transition;
+    }
+
+    .card-title {
+      color: $text;
+      font-weight: $fw-semibold;
+      transition: $transition;
+    }
+
+    .card-text {
+      color: $gray;
+      line-height: 1.7;
+    }
+
+    &:hover {
+      transform: translateY(-8px);
+      border-color: $primary;
+      box-shadow: 0 12px 30px $shadow-hover;
+
+      i {
+        transform: scale(1.15);
+      }
+
+      .card-title {
+        color: $primary;
+      }
+    }
+  }
+}
+
+.products {
+  scroll-margin-top: 80px;
+
+  .product-card {
+    overflow: hidden;
+    border: none;
+    border-radius: $radius-lg;
+    box-shadow: 0 4px 12px $shadow;
+    transition: $transition;
+
+    img {
+      height: 250px;
+      object-fit: cover;
+      transition: $transition;
+    }
+
+    .product-btn {
+      border: 2px solid $primary;
+      color: $primary;
+      transition: $transition;
+
+      &:hover {
+        background-color: $primary;
+        color: $white;
+      }
+    }
+
+    &:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 15px 35px rgba(111, 78, 55, 0.2);
+
+      img {
+        transform: scale(1.08);
+      }
+    }
+  }
+
+  .product-btn {
+    padding: 10px 22px;
+    border-radius: $radius-sm;
+  }
+}

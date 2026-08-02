@@ -1,0 +1,33 @@
+@use "variables" as *;
+
+.map {
+  .card {
+    border-radius: $radius-lg;
+    overflow: hidden;
+    box-shadow: 0 8px 20px $shadow;
+  }
+
+  iframe {
+    display: block;
+  }
+}
+
+.distributor-card {
+  border-radius: $radius-lg;
+  transition: 0.3s;
+
+  &:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px $shadow;
+  }
+
+  .card-title {
+    color: $primary;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    margin-bottom: 0.75rem;
+  }
+}

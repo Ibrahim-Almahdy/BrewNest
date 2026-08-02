@@ -1,0 +1,71 @@
+@use "variables" as *;
+
+.product-info {
+  .card {
+    border-radius: $radius-lg;
+    box-shadow: 0 8px 20px $shadow;
+    transition: $transition;
+
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 30px $shadow-hover;
+    }
+  }
+
+  h2 {
+    color: $text;
+    font-weight: $fw-bold;
+  }
+
+  h4 {
+    color: $primary !important;
+    font-weight: $fw-bold;
+  }
+
+  p {
+    color: $gray;
+    line-height: 1.8;
+  }
+
+  .text-warning {
+    font-size: 1.1rem;
+  }
+
+  .product-btn {
+    border: 2px solid $primary;
+    color: $primary;
+    border-radius: $radius-sm;
+    transition: $transition;
+
+    &:hover {
+      background-color: $primary;
+      color: $white;
+    }
+  }
+}
+
+.reviews {
+  .card {
+    border-radius: $radius-lg;
+    transition: $transition;
+
+    &:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 12px 30px $shadow-hover;
+    }
+  }
+
+  .text-warning {
+    font-size: 1.1rem;
+  }
+
+  h5 {
+    font-weight: $fw-semibold;
+    color: $text;
+  }
+
+  p {
+    color: $gray;
+    line-height: 1.7;
+  }
+}
