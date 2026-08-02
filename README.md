@@ -1,18 +1,25 @@
 # ☕ Coffee Company Website
 
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![SCSS](https://img.shields.io/badge/SCSS-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+
 A modern, responsive coffee company website built with **HTML5**, **SCSS (Sass)**, **Bootstrap 5**, and **JavaScript (ES6)**. The project showcases a complete multi-page coffee shop website with responsive layouts, product pages, customer reviews, distributors, Google Maps integration, and form validation.
 
 ---
 
 # 🚀 Live Demo
 
-https://your-demo-link.vercel.app
+> Coming Soon (Vercel)
 
 ---
 
 # 📂 GitHub Repository
 
-](https://github.com/Ibrahim-Almahdy/coffee-company)
+https://github.com/Ibrahim-Almahdy/coffee-company
+
 ---
 
 # 📸 Screenshots
@@ -61,7 +68,8 @@ https://your-demo-link.vercel.app
 - About Company Page
 - Distributors Page
 - Google Maps Integration
-- Working Hours Section
+- Distributor Cards
+- Company Working Hours
 - Contact Form Validation
 - Newsletter Validation
 - Reusable Components
@@ -108,24 +116,23 @@ coffee-company
 │       ├── _variables.scss
 │       ├── _global.scss
 │       ├── _navbar.scss
-│       ├── _hero.scss
-│       ├── _products.scss
-│       ├── _product.scss
 │       ├── _about.scss
-│       ├── _distributors.scss
 │       ├── _contact.scss
 │       ├── _footer.scss
+│       ├── _home.scss
+│       ├── _product.scss
 │       ├── _responsive.scss
 │       └── style.scss
 │
 ├── index.html
-├── about.html
-├── distributors.html
-├── contact.html
 ├── cappuccino.html
 ├── coffee.html
 ├── turkish-coffee.html
+├── about.html
+├── distributors.html
+├── contact.html
 ├── package.json
+├── package-lock.json
 └── README.md
 ```
 
@@ -178,29 +185,37 @@ The website is fully responsive and optimized for:
 
 ---
 
+# 📚 Project Purpose
+
+This project was developed as the graduation project for the **Hsoub Academy Front-End Web Development Program**. It demonstrates building a complete responsive multi-page website using modern front-end technologies and best practices.
+
+---
+
 # 🎯 Learning Objectives
 
 This project was built to practice:
 
 - Responsive Web Design
-- Bootstrap Components
+- Bootstrap 5 Components
 - SCSS Architecture
 - JavaScript DOM Manipulation
 - Form Validation
 - Multi-page Website Development
-- Git Workflow
+- Google Maps Integration
+- Git & GitHub Workflow
 - Clean Code Organization
 
 ---
 
 # 👨‍💻 Author
 
-**Ibrahim Elmahdy**
+**Ibrahim Almahdy**
 
 - GitHub: https://github.com/Ibrahim-Almahdy
 - LinkedIn: https://www.linkedin.com/in/ibrahim-almahdy-eng/
+
 ---
 
 # 📜 License
 
-This project was created for educational purposes only.
+This project was created for educational purposes as the graduation project of the **Hsoub Academy Front-End Web Development Program**.
