@@ -290,3 +290,26 @@
     line-height: 1.7;
   }
 }
+
+.about {
+  .card {
+    border-radius: $radius-lg;
+    box-shadow: 0 8px 20px $shadow;
+    transition: $transition;
+
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 30px $shadow-hover;
+    }
+  }
+
+  h2 {
+    color: $text;
+    font-weight: $fw-bold;
+  }
+
+  p {
+    color: $gray;
+    line-height: 1.9;
+  }
+}
