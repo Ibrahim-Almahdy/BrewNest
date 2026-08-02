@@ -197,9 +197,8 @@ This project was built to practice:
 
 **Ibrahim Elmahdy**
 
-- GitHub: https://github.com/your-username
-- LinkedIn: https://linkedin.com/in/your-profile
-
+- GitHub: https://github.com/Ibrahim-Almahdy
+- LinkedIn: https://www.linkedin.com/in/ibrahim-almahdy-eng/
 ---
 
 # 📜 License
