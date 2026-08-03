@@ -25,5 +25,46 @@
   "footer.newsletter": "Subscribe to our Newsletter",
   "footer.placeholder": "Enter your email",
   "footer.subscribe": "Subscribe",
-  "footer.copyright": "© 2026 BrewNest. All Rights Reserved."
+  "footer.copyright": "© 2026 BrewNest. All Rights Reserved.",
+
+  "services.title": "Our Services",
+
+  "services.delivery.title": "Freshly Delivered",
+  "services.delivery.description": "Our fresh coffee products are shipped directly from the factory to ensure the best quality and flavor.",
+
+  "services.packaging.title": "Safe Packaging",
+  "services.packaging.description": "Our products are packed in special packaging that protects them from heat and external conditions.",
+
+  "services.reward.title": "Reward Points",
+  "services.reward.description": "Add your phone number to your profile and earn reward points with every order.",
+
+  "products.title": "Our Products",
+
+  "products.cappuccino.title": "Cappuccino",
+  "products.cappuccino.description": "Rich espresso blended with steamed milk and topped with creamy milk foam.",
+
+  "products.coffee.title": "Coffee",
+  "products.coffee.description": "Fresh brewed coffee made from premium beans with a rich and smooth flavor.",
+
+  "products.turkish.title": "Turkish Coffee",
+  "products.turkish.description": "Traditional Turkish coffee prepared with finely ground beans and authentic taste.",
+
+  "products.view": "View Product",
+
+  "aboutHero.slide1.title": "About BrewNest",
+  "aboutHero.slide1.description": "Discover our story and passion for premium coffee.",
+
+  "aboutHero.slide2.title": "Quality Since Day One",
+  "aboutHero.slide2.description": "Every cup begins with carefully selected coffee beans.",
+
+  "aboutHero.slide3.title": "Made for Coffee Lovers",
+  "aboutHero.slide3.description": "Sharing authentic coffee experiences with every customer.",
+
+  "about.story.title": "Our Story",
+
+  "about.story.paragraph1": "BrewNest was founded with a passion for delivering premium coffee made from carefully selected beans. From the very beginning, our goal has been to provide customers with fresh coffee, exceptional quality, and an authentic coffee experience.",
+
+  "about.story.paragraph2": "Over the years, we have built strong relationships with trusted coffee growers and distributors around the world. Every product is carefully prepared to preserve its rich aroma and unique flavor.",
+
+  "about.story.paragraph3": "Today, BrewNest continues its journey by serving coffee lovers with high-quality products while maintaining the values of excellence, freshness, and customer satisfaction."
 }

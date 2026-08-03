@@ -25,5 +25,46 @@
   "footer.newsletter": "اشترك في نشرتنا البريدية",
   "footer.placeholder": "أدخل بريدك الإلكتروني",
   "footer.subscribe": "اشترك",
-  "footer.copyright": "© 2026 BrewNest. جميع الحقوق محفوظة."
+  "footer.copyright": "© 2026 BrewNest. جميع الحقوق محفوظة.",
+
+  "services.title": "خدماتنا",
+
+  "services.delivery.title": "توصيل طازج",
+  "services.delivery.description": "يتم شحن منتجات القهوة الطازجة مباشرة من المصنع لضمان أفضل جودة وأفضل نكهة.",
+
+  "services.packaging.title": "تغليف آمن",
+  "services.packaging.description": "تُعبأ منتجاتنا في عبوات خاصة تحميها من الحرارة والعوامل الخارجية.",
+
+  "services.reward.title": "نقاط المكافآت",
+  "services.reward.description": "أضف رقم هاتفك إلى حسابك واحصل على نقاط مكافآت مع كل طلب.",
+
+  "products.title": "منتجاتنا",
+
+  "products.cappuccino.title": "كابتشينو",
+  "products.cappuccino.description": "إسبريسو غني ممزوج بالحليب المبخر ومغطى برغوة حليب كريمية.",
+
+  "products.coffee.title": "قهوة",
+  "products.coffee.description": "قهوة طازجة محضرة من أجود أنواع الحبوب بنكهة غنية ومتوازنة.",
+
+  "products.turkish.title": "القهوة التركية",
+  "products.turkish.description": "قهوة تركية تقليدية محضرة من حبوب مطحونة ناعمًا بطعم أصيل.",
+
+  "products.view": "عرض المنتج",
+
+  "aboutHero.slide1.title": "عن BrewNest",
+  "aboutHero.slide1.description": "اكتشف قصتنا وشغفنا بتقديم أجود أنواع القهوة.",
+
+  "aboutHero.slide2.title": "الجودة منذ اليوم الأول",
+  "aboutHero.slide2.description": "كل كوب يبدأ بحبوب قهوة مختارة بعناية فائقة.",
+
+  "aboutHero.slide3.title": "صنع لعشاق القهوة",
+  "aboutHero.slide3.description": "نشارك كل عميل تجربة قهوة أصيلة لا تُنسى.",
+
+  "about.story.title": "قصتنا",
+
+  "about.story.paragraph1": "تأسست BrewNest بشغف لتقديم قهوة فاخرة مصنوعة من أجود أنواع الحبوب المختارة بعناية. ومنذ البداية كان هدفنا تقديم قهوة طازجة وجودة استثنائية وتجربة قهوة أصيلة لكل عميل.",
+
+  "about.story.paragraph2": "على مر السنين، بنينا علاقات قوية مع مزارعي وموردي القهوة الموثوقين حول العالم. ويتم إعداد كل منتج بعناية للحفاظ على رائحته الغنية ونكهته المميزة.",
+
+  "about.story.paragraph3": "واليوم تواصل BrewNest رحلتها في تقديم منتجات عالية الجودة لعشاق القهوة مع الالتزام بقيم التميز والطزاجة ورضا العملاء."
 }
