@@ -7,7 +7,6 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-121013?style=for-the-badge&logo=github&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
 A modern and fully responsive multi-page coffee shop website developed as the graduation project for the **Hsoub Academy Front-End Web Development Program**.
 
@@ -281,26 +280,6 @@ This project was built to practice:
 - Git & GitHub Workflow
 - Vite Build Tool
 - Clean Code Organization
-
----
-
-# 🚀 Tech Highlights
-
-- Responsive Multi-Page Architecture
-- Mobile-First Design
-- Arabic & English Localization
-- RTL / LTR Layout Support
-- Dynamic Language Switching
-- Language Preference Saved in Local Storage
-- Reusable SCSS Components
-- Modular JavaScript Structure
-- Bootstrap Grid System
-- Client-Side Validation
-- Google Maps Integration
-- Optimized Build using Vite
-- Version Control using Git
-- GitHub Repository Management
-- Deployment using GitHub Pages
 
 ---
 
