@@ -11,7 +11,7 @@
 
 A modern and fully responsive multi-page coffee shop website developed as the graduation project for the **Hsoub Academy Front-End Web Development Program**.
 
-The project demonstrates modern front-end development practices including responsive layouts, reusable components, SCSS architecture, Bootstrap 5, JavaScript (ES6), client-side form validation, Google Maps integration, version control using Git & GitHub, and deployment using GitHub Pages and Vercel.
+The project demonstrates modern front-end development practices including responsive layouts, reusable SCSS architecture, Bootstrap 5, JavaScript (ES6), multilingual support, client-side form validation, Google Maps integration, Git & GitHub workflow, and deployment using GitHub Pages.
 
 ---
 
@@ -20,10 +20,6 @@ The project demonstrates modern front-end development practices including respon
 ### GitHub Pages
 
 https://ibrahim-almahdy.github.io/BrewNest/
-
-### Vercel
-
-https://brew-nest-swart.vercel.app/
 
 ---
 
@@ -69,23 +65,26 @@ https://github.com/Ibrahim-Almahdy/BrewNest
 
 - Fully Responsive Design
 - Modern Bootstrap 5 UI
-- Hero Section
+- Multi-Page Website
+- Hero Carousel
 - Products Section
 - Individual Product Pages
 - Customer Reviews
 - Similar Products
 - About Page
 - Distributors Page
-- Google Maps Integration
 - Contact Page
+- Google Maps Integration
 - Contact Form Validation
 - Newsletter Validation
+- Arabic & English Language Support
+- RTL & LTR Layout Support
+- Dynamic Language Switching
+- Language Preference Saved in Local Storage
 - Organized SCSS Architecture
+- Modular JavaScript Files
 - Reusable Components
-- Multi-Page Website
 - Clean Folder Structure
-
----
 
 # 🛠️ Built With
 
@@ -95,9 +94,42 @@ https://github.com/Ibrahim-Almahdy/BrewNest
 - Bootstrap 5
 - JavaScript (ES6)
 - Bootstrap Icons
+- i18next
 - Vite
+
+### Version Control
+
 - Git
 - GitHub
+
+---
+
+# 📁 Project Structure
+
+```text
+BrewNest
+│
+├── screenshots
+│
+├── src
+│   ├── assets
+│   ├── js
+│   ├── locales
+│   └── scss
+│
+├── index.html
+├── about.html
+├── coffee.html
+├── cappuccino.html
+├── turkish-coffee.html
+├── distributors.html
+├── contact.html
+│
+├── vite.config.js
+├── package.json
+├── package-lock.json
+└── README.md
+```
 
 ---
 
@@ -141,36 +173,6 @@ npm run preview
 
 ---
 
-# 📁 Project Structure
-
-```text
-BrewNest
-│
-├── screenshots
-│
-├── public
-│
-├── src
-│   ├── assets
-│   ├── js
-│   └── scss
-│
-├── index.html
-├── about.html
-├── coffee.html
-├── cappuccino.html
-├── turkish-coffee.html
-├── distributors.html
-├── contact.html
-│
-├── vite.config.js
-├── package.json
-├── package-lock.json
-└── README.md
-```
-
----
-
 # 📄 Pages
 
 - Home
@@ -187,12 +189,10 @@ BrewNest
 
 Optimized for:
 
-- Desktop
-- Laptop
-- Tablet
-- Mobile
-
----
+- 🖥️ Desktop
+- 💻 Laptop
+- 📱 Tablet
+- 📲 Mobile
 
 # ✅ Form Validation
 
@@ -202,14 +202,19 @@ Optimized for:
 - Email Validation
 - Subject Validation
 - Message Validation
+- Success & Error Feedback
+- Multilingual Validation Messages
 
 ### Newsletter
 
 - Email Validation
+- Success Feedback
 
 ---
 
 # 🗺️ Google Maps
+
+The website integrates Google Maps to display:
 
 - Company Location
 - Distributors Locations
@@ -220,7 +225,7 @@ Optimized for:
 
 This project was developed as the graduation project for the **Hsoub Academy Front-End Web Development Program**.
 
-It demonstrates building a complete multi-page responsive website using modern front-end technologies and best development practices.
+It demonstrates building a complete, responsive, multilingual, multi-page website using modern front-end technologies and best development practices.
 
 ---
 
@@ -233,6 +238,9 @@ This project was built to practice:
 - CSS3 & SCSS Architecture
 - Bootstrap 5 Components
 - JavaScript DOM Manipulation
+- ES6 Modules
+- Website Localization using i18next
+- RTL & LTR Layout Support
 - Form Validation
 - Multi-Page Website Development
 - Google Maps Integration
@@ -246,14 +254,19 @@ This project was built to practice:
 
 - Responsive Multi-Page Architecture
 - Mobile-First Design
+- Arabic & English Localization
+- RTL / LTR Layout Support
+- Dynamic Language Switching
+- Language Preference Saved in Local Storage
 - Reusable SCSS Components
+- Modular JavaScript Structure
 - Bootstrap Grid System
 - Client-Side Validation
+- Google Maps Integration
 - Optimized Build using Vite
 - Version Control using Git
 - GitHub Repository Management
 - Deployment using GitHub Pages
-- Deployment using Vercel
 
 ---
 
