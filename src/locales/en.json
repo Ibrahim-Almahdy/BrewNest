@@ -66,5 +66,36 @@
 
   "about.story.paragraph2": "Over the years, we have built strong relationships with trusted coffee growers and distributors around the world. Every product is carefully prepared to preserve its rich aroma and unique flavor.",
 
-  "about.story.paragraph3": "Today, BrewNest continues its journey by serving coffee lovers with high-quality products while maintaining the values of excellence, freshness, and customer satisfaction."
+  "about.story.paragraph3": "Today, BrewNest continues its journey by serving coffee lovers with high-quality products while maintaining the values of excellence, freshness, and customer satisfaction.",
+
+  "distributorsHero.slide1.title": "Our Distributors",
+  "distributorsHero.slide1.description": "Find trusted BrewNest distributors across Egypt.",
+
+  "distributorsHero.slide2.title": "Nationwide Network",
+  "distributorsHero.slide2.description": "Serving customers through reliable local distributors.",
+
+  "distributorsHero.slide3.title": "Always Near You",
+  "distributorsHero.slide3.description": "Locate the nearest distributor and enjoy fresh coffee.",
+
+  "distributors.map.title": "Our Distributors Locations",
+
+  "distributors.title": "Our Distributors",
+
+  "distributors.cairo.title": "Cairo Coffee Center",
+  "distributors.cairo.location": "Nasr City, Cairo",
+
+  "distributors.alex.title": "Alex Coffee Store",
+  "distributors.alex.location": "Smouha, Alexandria",
+
+  "distributors.delta.title": "Delta Coffee House",
+  "distributors.delta.location": "Mansoura, Dakahlia",
+
+  "distributors.damietta.title": "Damietta Brew House",
+  "distributors.damietta.location": "Damietta City",
+
+  "distributors.tanta.title": "Tanta Coffee Hub",
+  "distributors.tanta.location": "Tanta, Gharbia",
+
+  "distributors.upper.title": "Upper Egypt Coffee",
+  "distributors.upper.location": "Assiut City"
 }

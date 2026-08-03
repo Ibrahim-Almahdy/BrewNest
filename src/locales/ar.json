@@ -66,5 +66,36 @@
 
   "about.story.paragraph2": "على مر السنين، بنينا علاقات قوية مع مزارعي وموردي القهوة الموثوقين حول العالم. ويتم إعداد كل منتج بعناية للحفاظ على رائحته الغنية ونكهته المميزة.",
 
-  "about.story.paragraph3": "واليوم تواصل BrewNest رحلتها في تقديم منتجات عالية الجودة لعشاق القهوة مع الالتزام بقيم التميز والطزاجة ورضا العملاء."
+  "about.story.paragraph3": "واليوم تواصل BrewNest رحلتها في تقديم منتجات عالية الجودة لعشاق القهوة مع الالتزام بقيم التميز والطزاجة ورضا العملاء.",
+
+  "distributorsHero.slide1.title": "موزعونا",
+  "distributorsHero.slide1.description": "اعثر على موزعي BrewNest المعتمدين في جميع أنحاء مصر.",
+
+  "distributorsHero.slide2.title": "شبكة تغطي جميع المحافظات",
+  "distributorsHero.slide2.description": "نخدم عملاءنا من خلال شبكة من الموزعين الموثوقين.",
+
+  "distributorsHero.slide3.title": "دائمًا بالقرب منك",
+  "distributorsHero.slide3.description": "اعثر على أقرب موزع واستمتع بقهوة طازجة في أي وقت.",
+
+  "distributors.map.title": "مواقع موزعينا",
+
+  "distributors.title": "موزعونا",
+
+  "distributors.cairo.title": "مركز القاهرة للقهوة",
+  "distributors.cairo.location": "مدينة نصر، القاهرة",
+
+  "distributors.alex.title": "متجر الإسكندرية للقهوة",
+  "distributors.alex.location": "سموحة، الإسكندرية",
+
+  "distributors.delta.title": "بيت قهوة الدلتا",
+  "distributors.delta.location": "المنصورة، الدقهلية",
+
+  "distributors.damietta.title": "بيت دمياط للقهوة",
+  "distributors.damietta.location": "مدينة دمياط",
+
+  "distributors.tanta.title": "مركز طنطا للقهوة",
+  "distributors.tanta.location": "طنطا، الغربية",
+
+  "distributors.upper.title": "قهوة صعيد مصر",
+  "distributors.upper.location": "مدينة أسيوط"
 }
