@@ -6,14 +6,13 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 
-A modern, responsive coffee company website built with **HTML5**, **SCSS (Sass)**, **Bootstrap 5**, and **JavaScript (ES6)**. The project showcases a complete multi-page coffee shop website with responsive layouts, product pages, customer reviews, distributors, Google Maps integration, and form validation.
+A modern, responsive BrewNest website built with **HTML5**, **SCSS (Sass)**, **Bootstrap 5**, and **JavaScript (ES6)**. The project showcases a complete multi-page coffee shop website with responsive layouts, product pages, customer reviews, distributors, Google Maps integration, and form validation.
 
 ---
 
 # 🚀 Live Demo
 
-https://brewnest-rho.vercel.app
----
+## https://brewnest-rho.vercel.app
 
 # 📂 GitHub Repository
 
