@@ -6,13 +6,15 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 
-A modern, responsive BrewNest website built with **HTML5**, **SCSS (Sass)**, **Bootstrap 5**, and **JavaScript (ES6)**. The project showcases a complete multi-page coffee shop website with responsive layouts, product pages, customer reviews, distributors, Google Maps integration, and form validation.
+A modern, responsive **BrewNest** website built with **HTML5**, **SCSS (Sass)**, **Bootstrap 5**, and **JavaScript (ES6)**. The project showcases a complete multi-page coffee shop website featuring responsive layouts, product pages, customer reviews, distributors, Google Maps integration, client-side form validation, and multilingual support.
 
 ---
 
 # 🚀 Live Demo
 
-## https://brewnest-rho.vercel.app
+https://brew-nest-swart.vercel.app/
+
+---
 
 # 📂 GitHub Repository
 
@@ -72,26 +74,70 @@ https://github.com/Ibrahim-Almahdy/brewnest
 - Newsletter Validation
 - Reusable Components
 - Organized SCSS Architecture
+- Multi-language Support (English & Arabic)
+- RTL / LTR Layout Support
 
 ---
 
 # 🛠️ Built With
 
 - HTML5
+- CSS3
 - SCSS (Sass)
 - Bootstrap 5
 - JavaScript (ES6)
 - Bootstrap Icons
 - Vite
+- i18next
 - Git
 - GitHub
+
+---
+
+# ⚙️ Getting Started
+
+## Clone the repository
+
+```bash
+git clone https://github.com/Ibrahim-Almahdy/brewnest.git
+```
+
+## Navigate to the project
+
+```bash
+cd brewnest
+```
+
+## Install dependencies
+
+```bash
+npm install
+```
+
+## Start the development server
+
+```bash
+npm run dev
+```
+
+## Build for production
+
+```bash
+npm run build
+```
+
+## Preview the production build
+
+```bash
+npm run preview
+```
 
 ---
 
 # 📁 Project Structure
 
 ```text
-coffee-company
+brewnest
 │
 ├── screenshots
 │   ├── home.png
@@ -99,6 +145,8 @@ coffee-company
 │   ├── about.png
 │   ├── distributors.png
 │   └── contact.png
+│
+├── public
 │
 ├── src
 │   ├── assets
@@ -114,11 +162,13 @@ coffee-company
 │       ├── _variables.scss
 │       ├── _global.scss
 │       ├── _navbar.scss
+│       ├── _hero.scss
+│       ├── _products.scss
+│       ├── _product.scss
 │       ├── _about.scss
+│       ├── _distributors.scss
 │       ├── _contact.scss
 │       ├── _footer.scss
-│       ├── _home.scss
-│       ├── _product.scss
 │       ├── _responsive.scss
 │       └── style.scss
 │
@@ -129,6 +179,7 @@ coffee-company
 ├── about.html
 ├── distributors.html
 ├── contact.html
+├── vite.config.js
 ├── package.json
 ├── package-lock.json
 └── README.md
@@ -159,9 +210,25 @@ The website is fully responsive and optimized for:
 
 ---
 
+# 🌐 Internationalization
+
+The website supports both **English** and **Arabic** languages using **i18next**. Users can switch between languages seamlessly, while the application automatically updates the page content, layout direction, and remembers the selected language using Local Storage.
+
+### Features
+
+- English Language Support
+- Arabic Language Support
+- Dynamic Language Switching
+- RTL / LTR Layout Support
+- Language Preference Saved using Local Storage
+- DOM Translation using i18next
+- Automatic HTML `lang` and `dir` Attribute Updates
+
+---
+
 # ✅ Form Validation
 
-### Contact Form
+## Contact Form
 
 - Full Name Validation
 - Email Validation
@@ -169,7 +236,7 @@ The website is fully responsive and optimized for:
 - Message Validation
 - Bootstrap Validation States
 
-### Newsletter
+## Newsletter
 
 - Email Validation
 - Bootstrap Validation States
@@ -197,10 +264,13 @@ This project was built to practice:
 - Bootstrap 5 Components
 - SCSS Architecture
 - JavaScript DOM Manipulation
+- Internationalization (i18next)
+- RTL / LTR Web Development
 - Form Validation
 - Multi-page Website Development
 - Google Maps Integration
 - Git & GitHub Workflow
+- Vite Build Tool
 - Clean Code Organization
 
 ---
