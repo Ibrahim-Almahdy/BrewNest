@@ -109,29 +109,63 @@ https://github.com/Ibrahim-Almahdy/BrewNest
 ```text
 BrewNest
 │
-├── screenshots
+├── screenshots/
+│   ├── about.png
+│   ├── contact.png
+│   ├── distributors.png
+│   ├── home.png
+│   └── product.png
 │
-├── src
-│   ├── assets
-│   ├── js
-│   ├── locales
-│   └── scss
+├── src/
+│   ├── assets/
+│   │   └── images/
+│   │       ├── carousel/
+│   │       ├── icons/
+│   │       └── products/
+│   │           ├── cappuccino/
+│   │           ├── coffee/
+│   │           └── turkish-coffee/
+│   │
+│   ├── js/
+│   │   ├── contact.js
+│   │   ├── footer.js
+│   │   └── main.js
+│   │
+│   ├── locales/
+│   │   ├── ar.json
+│   │   └── en.json
+│   │
+│   ├── scss/
+│   │   ├── _about.scss
+│   │   ├── _contact.scss
+│   │   ├── _distributors.scss
+│   │   ├── _footer.scss
+│   │   ├── _forms.scss
+│   │   ├── _global.scss
+│   │   ├── _hero.scss
+│   │   ├── _navbar.scss
+│   │   ├── _product.scss
+│   │   ├── _products.scss
+│   │   ├── _responsive.scss
+│   │   ├── _variables.scss
+│   │   └── style.scss
+│   │
+│   └── i18n.js
 │
-├── index.html
 ├── about.html
-├── coffee.html
 ├── cappuccino.html
-├── turkish-coffee.html
-├── distributors.html
+├── coffee.html
 ├── contact.html
+├── distributors.html
+├── index.html
+├── turkish-coffee.html
 │
-├── vite.config.js
+├── .gitignore
 ├── package.json
 ├── package-lock.json
+├── vite.config.js
 └── README.md
 ```
-
----
 
 # ⚙️ Getting Started
 
