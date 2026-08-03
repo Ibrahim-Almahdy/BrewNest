@@ -1,4 +1,4 @@
-# ☕ Coffee Company Website
+# ☕ BrewNest Website
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![SCSS](https://img.shields.io/badge/SCSS-CC6699?style=for-the-badge&logo=sass&logoColor=white)
@@ -12,12 +12,12 @@ A modern, responsive coffee company website built with **HTML5**, **SCSS (Sass)*
 
 # 🚀 Live Demo
 
-https://coffee-company-rho.vercel.app
+https://brewnest-rho.vercel.app
 ---
 
 # 📂 GitHub Repository
 
-https://github.com/Ibrahim-Almahdy/coffee-company
+https://github.com/Ibrahim-Almahdy/brewnest
 
 ---
 
