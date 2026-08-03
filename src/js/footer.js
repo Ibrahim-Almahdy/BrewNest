@@ -1,3 +1,5 @@
+import i18next from "../i18n";
+
 const newsletterForm = document.getElementById("newsletterForm");
 
 if (newsletterForm) {
@@ -21,11 +23,13 @@ if (newsletterForm) {
     e.preventDefault();
 
     if (!emailPattern.test(newsletterEmail.value.trim())) {
-      showNewsletterError("Please enter a valid email.");
+      showNewsletterError(i18next.t("newsletter.validation.email"));
       return;
     }
 
     showNewsletterSuccess();
+
+    alert(i18next.t("newsletter.validation.success"));
 
     newsletterForm.reset();
 

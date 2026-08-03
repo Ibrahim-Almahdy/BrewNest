@@ -1,9 +1,20 @@
 @use "variables" as *;
 
 .cart-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+
   border: 2px solid $primary;
   color: $primary;
   transition: $transition;
+
+  i {
+    font-size: 1.15rem;
+    line-height: 1;
+    color: inherit;
+  }
 
   &:hover {
     background-color: $primary;
@@ -13,6 +24,12 @@
 
   &:focus {
     box-shadow: none;
+  }
+}
+
+html[dir="rtl"] {
+  .cart-btn {
+    flex-direction: row-reverse;
   }
 }
 
@@ -27,5 +44,28 @@
     background-color: $primary;
     color: $white !important;
     transform: scale(1.05);
+  }
+}
+
+.language-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  min-width: 95px;
+  padding: 0.5rem 1rem;
+
+  transition: $transition;
+}
+
+html[dir="ltr"] {
+  .language-btn {
+    margin-right: 0.5rem;
+  }
+}
+
+html[dir="rtl"] {
+  .language-btn {
+    margin-left: 0.5rem;
   }
 }

@@ -243,5 +243,14 @@
   "turkish.similar.coffee.title": "القهوة",
   "turkish.similar.coffee.description": "قهوة طازجة محضرة من أجود أنواع الحبوب بمذاق غني ومتوازن.",
 
-  "turkish.similar.button": "عرض المنتج"
+  "turkish.similar.button": "عرض المنتج",
+
+  "contact.validation.fullName": "يجب أن يتكون الاسم الكامل من 3 أحرف على الأقل.",
+  "contact.validation.email": "يرجى إدخال بريد إلكتروني صحيح.",
+  "contact.validation.subject": "يجب أن يتكون الموضوع من 3 أحرف على الأقل.",
+  "contact.validation.message": "يجب أن تتكون الرسالة من 20 حرفًا على الأقل.",
+  "contact.validation.success": "تم إرسال الرسالة بنجاح!",
+
+  "newsletter.validation.email": "يرجى إدخال بريد إلكتروني صحيح.",
+  "newsletter.validation.success": "تم الاشتراك في النشرة البريدية بنجاح!"
 }

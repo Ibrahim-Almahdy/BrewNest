@@ -14,7 +14,7 @@
   }
 
   p {
-    color: #f5f5f5;
+    color: $footer-text;
   }
 
   h5 {
@@ -39,22 +39,16 @@
     }
   }
 
-  .form-control {
-    border-radius: $radius-sm;
-    border: none;
-    padding: 12px 16px;
-
-    &:focus {
-      box-shadow: 0 0 0 0.2rem $focus-shadow;
-    }
-  }
-
   .btn {
     background-color: $primary;
     color: $white;
     border: 2px solid $primary;
     border-radius: $radius-sm;
     transition: $transition;
+
+    padding: 0.75rem 1.8rem;
+    min-height: 54px;
+    font-weight: $fw-medium;
 
     &:hover {
       background-color: transparent;

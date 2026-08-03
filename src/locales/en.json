@@ -243,5 +243,14 @@
   "turkish.similar.coffee.title": "Coffee",
   "turkish.similar.coffee.description": "Fresh brewed coffee made from premium beans with a rich and smooth flavor.",
 
-  "turkish.similar.button": "View Product"
+  "turkish.similar.button": "View Product",
+
+  "contact.validation.fullName": "Full name must be at least 3 characters.",
+  "contact.validation.email": "Please enter a valid email.",
+  "contact.validation.subject": "Subject must be at least 3 characters.",
+  "contact.validation.message": "Message must be at least 20 characters.",
+  "contact.validation.success": "Message sent successfully!",
+
+  "newsletter.validation.email": "Please enter a valid email.",
+  "newsletter.validation.success": "Subscribed successfully!"
 }

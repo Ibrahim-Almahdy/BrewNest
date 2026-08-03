@@ -42,35 +42,27 @@
     margin-bottom: 0.5rem;
   }
 
-  .form-control {
-    border-radius: $radius;
-    padding: 0.75rem;
-    transition: all 0.3s ease;
-
-    &:focus {
-      border-color: $primary;
-      box-shadow: none;
-    }
-  }
-
   textarea {
     resize: none;
     min-height: 180px;
   }
 
   .product-btn {
-    background-color: $primary;
-    color: $white;
+    background-color: $white;
+    color: $primary;
     border: 2px solid $primary;
     border-radius: $radius;
-    padding: 0.75rem 2rem;
+
+    padding: 0.8rem 2.5rem;
+    font-size: 1rem;
     font-weight: $fw-medium;
-    transition: all 0.3s ease;
+
+    transition: $transition;
 
     &:hover {
-      background-color: transparent;
-      color: $primary;
+      background-color: $primary;
       border-color: $primary;
+      color: $white;
     }
   }
 }

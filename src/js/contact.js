@@ -1,3 +1,4 @@
+import i18next from "../i18n.js";
 const contactForm = document.getElementById("contactForm");
 
 if (contactForm) {
@@ -26,28 +27,28 @@ if (contactForm) {
     let isValid = true;
 
     if (fullName.value.trim().length < 3) {
-      showError(fullName, "Full name must be at least 3 characters.");
+      showError(fullName, i18next.t("contact.validation.fullName"));
       isValid = false;
     } else {
       showSuccess(fullName);
     }
 
     if (!emailPattern.test(email.value.trim())) {
-      showError(email, "Please enter a valid email.");
+      showError(email, i18next.t("contact.validation.email"));
       isValid = false;
     } else {
       showSuccess(email);
     }
 
     if (subject.value.trim().length < 3) {
-      showError(subject, "Subject must be at least 3 characters.");
+      showError(subject, i18next.t("contact.validation.subject"));
       isValid = false;
     } else {
       showSuccess(subject);
     }
 
     if (message.value.trim().length < 20) {
-      showError(message, "Message must be at least 20 characters.");
+      showError(message, i18next.t("contact.validation.message"));
       isValid = false;
     } else {
       showSuccess(message);
@@ -60,7 +61,7 @@ if (contactForm) {
         input.classList.remove("is-valid");
       });
 
-      alert("Message sent successfully!");
+      alert(i18next.t("contact.validation.success"));
     }
   });
 }
