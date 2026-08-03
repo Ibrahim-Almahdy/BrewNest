@@ -5,3 +5,5 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import "../scss/style.scss";
 import "./contact.js";
 import "./footer.js";
+
+import "../i18n.js";

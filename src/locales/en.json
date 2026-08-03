@@ -1,0 +1,29 @@
+{
+  "nav.home": "Home",
+  "nav.about": "About",
+  "nav.products": "Products",
+  "nav.distributors": "Distributors",
+  "nav.contact": "Contact",
+  "nav.cart": "Cart",
+  "nav.language": "العربية",
+
+  "hero.slide1.title": "Premium Coffee",
+  "hero.slide1.description": "Freshly Roasted Every Day",
+
+  "hero.slide2.title": "Authentic Coffee Experience",
+  "hero.slide2.description": "Handcrafted with care and attention to detail",
+
+  "hero.slide3.title": "Best Coffee Beans",
+  "hero.slide3.description": "High-quality beans sourced from the finest plantations.",
+
+  "hero.slide4.title": "Rich Coffee Aroma",
+  "hero.slide4.description": "Enjoy the authentic taste and unforgettable aroma",
+
+  "hero.slide5.title": "Start Your Coffee Journey",
+  "hero.slide5.description": "Discover our premium coffee collection today.",
+  "footer.description": "Enjoy premium coffee made from the finest beans.",
+  "footer.newsletter": "Subscribe to our Newsletter",
+  "footer.placeholder": "Enter your email",
+  "footer.subscribe": "Subscribe",
+  "footer.copyright": "© 2026 BrewNest. All Rights Reserved."
+}

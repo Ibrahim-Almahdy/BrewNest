@@ -29,3 +29,19 @@
     }
   }
 }
+
+html[dir="rtl"] {
+  .carousel-control-prev {
+    right: 0;
+    left: auto;
+  }
+
+  .carousel-control-next {
+    left: 0;
+    right: auto;
+  }
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    transform: scaleX(-1);
+  }
+}

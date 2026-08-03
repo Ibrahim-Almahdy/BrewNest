@@ -17,11 +17,13 @@
               src="./src/assets/images/icons/logo.svg"
               alt="BrewNest Logo"
               width="48"
+              أ
               height="48"
               class="me-2 mt-2"
             />
             BrewNest
           </a>
+
           <button
             class="navbar-toggler"
             type="button"
@@ -37,28 +39,59 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mx-auto gap-3">
               <li class="nav-item">
-                <a class="nav-link active" href="index.html">Home</a>
+                <a
+                  class="nav-link active"
+                  href="index.html"
+                  data-i18n="nav.home"
+                >
+                  Home
+                </a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="index.html#products">Products</a>
+                <a
+                  class="nav-link"
+                  href="index.html#products"
+                  data-i18n="nav.products"
+                >
+                  Products
+                </a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="distributors.html">Distributors</a>
+                <a
+                  class="nav-link"
+                  href="distributors.html"
+                  data-i18n="nav.distributors"
+                >
+                  Distributors
+                </a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
+                <a class="nav-link" href="about.html" data-i18n="nav.about">
+                  About
+                </a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
+                <a class="nav-link" href="contact.html" data-i18n="nav.contact">
+                  Contact
+                </a>
               </li>
             </ul>
+
+            <button
+              id="language-toggle"
+              class="btn btn-outline-secondary rounded-pill me-2"
+              data-i18n="nav.language"
+            >
+              العربية
+            </button>
+
             <a href="#" class="btn btn-outline-dark rounded-pill px-4 cart-btn">
               <i class="bi bi-cart3 me-2"></i>
-              Cart
+              <span data-i18n="nav.cart">Cart</span>
             </a>
           </div>
         </div>
@@ -115,8 +148,10 @@
                 alt="Coffee Slide 1"
               />
               <div class="carousel-caption d-none d-md-block">
-                <h5>Premium Coffee</h5>
-                <p>Freshly Roasted Every Day</p>
+                <h5 data-i18n="hero.slide1.title">Premium Coffee</h5>
+                <p data-i18n="hero.slide1.description">
+                  Freshly Roasted Every Day
+                </p>
               </div>
             </div>
 
@@ -127,8 +162,12 @@
                 alt="Coffee Slide 2"
               />
               <div class="carousel-caption d-none d-md-block">
-                <h5>Authentic Coffee Experience</h5>
-                <p>Handcrafted with care and attention to detail</p>
+                <h5 data-i18n="hero.slide2.title">
+                  Authentic Coffee Experience
+                </h5>
+                <p data-i18n="hero.slide2.description">
+                  Handcrafted with care and attention to detail
+                </p>
               </div>
             </div>
 
@@ -139,8 +178,10 @@
                 alt="Coffee Slide 3"
               />
               <div class="carousel-caption d-none d-md-block">
-                <h5>Best Coffee Beans</h5>
-                <p>High-quality beans sourced from the finest plantations.</p>
+                <h5 data-i18n="hero.slide3.title">Best Coffee Beans</h5>
+                <p data-i18n="hero.slide3.description">
+                  High-quality beans sourced from the finest plantations.
+                </p>
               </div>
             </div>
 
@@ -151,8 +192,10 @@
                 alt="Coffee Slide 4"
               />
               <div class="carousel-caption d-none d-md-block">
-                <h5>Rich Coffee Aroma</h5>
-                <p>Enjoy the authentic taste and unforgettable aroma</p>
+                <h5 data-i18n="hero.slide4.title">Rich Coffee Aroma</h5>
+                <p data-i18n="hero.slide4.description">
+                  Enjoy the authentic taste and unforgettable aroma
+                </p>
               </div>
             </div>
 
@@ -163,8 +206,10 @@
                 alt="Coffee Slide 5"
               />
               <div class="carousel-caption d-none d-md-block">
-                <h5>Start Your Coffee Journey</h5>
-                <p>Discover our premium coffee collection today.</p>
+                <h5 data-i18n="hero.slide5.title">Start Your Coffee Journey</h5>
+                <p data-i18n="hero.slide5.description">
+                  Discover our premium coffee collection today.
+                </p>
               </div>
             </div>
           </div>
@@ -335,7 +380,7 @@
             BrewNest
           </a>
 
-          <p class="mt-3 mb-4">
+          <p class="mt-3 mb-4" data-i18n="footer.description">
             Enjoy premium coffee made from the finest beans.
           </p>
 
@@ -346,7 +391,9 @@
             <a href="#"><i class="bi bi-youtube"></i></a>
           </div>
 
-          <h5 class="mb-3">Subscribe to our Newsletter</h5>
+          <h5 class="mb-3" data-i18n="footer.newsletter">
+            Subscribe to our Newsletter
+          </h5>
 
           <form id="newsletterForm" class="row justify-content-center g-2 mb-4">
             <div class="col-12 col-md-6">
@@ -355,13 +402,18 @@
                 type="email"
                 class="form-control"
                 placeholder="Enter your email"
+                data-i18n-placeholder="footer.placeholder"
                 novalidate
               />
               <div class="invalid-feedback"></div>
             </div>
 
             <div class="col-12 col-md-auto">
-              <button type="submit" class="btn product-btn w-100">
+              <button
+                type="submit"
+                class="btn product-btn w-100"
+                data-i18n="footer.subscribe"
+              >
                 Subscribe
               </button>
             </div>
@@ -369,7 +421,9 @@
 
           <hr />
 
-          <p class="mb-0">© 2026 BrewNest. All Rights Reserved.</p>
+          <p class="mb-0" data-i18n="footer.copyright">
+            © 2026 BrewNest. All Rights Reserved.
+          </p>
         </div>
       </div>
     </footer>

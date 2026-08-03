@@ -17,11 +17,13 @@
               src="./src/assets/images/icons/logo.svg"
               alt="BrewNest Logo"
               width="48"
+              أ
               height="48"
               class="me-2 mt-2"
             />
             BrewNest
           </a>
+
           <button
             class="navbar-toggler"
             type="button"
@@ -37,30 +39,55 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mx-auto gap-3">
               <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link" href="index.html" data-i18n="nav.home">
+                  Home
+                </a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link active" href="index.html#products"
-                  >Products</a
+                <a
+                  class="nav-link active"
+                  href="index.html#products"
+                  data-i18n="nav.products"
                 >
+                  Products
+                </a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="distributors.html">Distributors</a>
+                <a
+                  class="nav-link"
+                  href="distributors.html"
+                  data-i18n="nav.distributors"
+                >
+                  Distributors
+                </a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
+                <a class="nav-link" href="about.html" data-i18n="nav.about">
+                  About
+                </a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
+                <a class="nav-link" href="contact.html" data-i18n="nav.contact">
+                  Contact
+                </a>
               </li>
             </ul>
+
+            <button
+              id="language-toggle"
+              class="btn btn-outline-secondary rounded-pill me-2"
+              data-i18n="nav.language"
+            >
+              العربية
+            </button>
+
             <a href="#" class="btn btn-outline-dark rounded-pill px-4 cart-btn">
               <i class="bi bi-cart3 me-2"></i>
-              Cart
+              <span data-i18n="nav.cart">Cart</span>
             </a>
           </div>
         </div>
@@ -332,7 +359,7 @@
             BrewNest
           </a>
 
-          <p class="mt-3 mb-4">
+          <p class="mt-3 mb-4" data-i18n="footer.description">
             Enjoy premium coffee made from the finest beans.
           </p>
 
@@ -343,7 +370,9 @@
             <a href="#"><i class="bi bi-youtube"></i></a>
           </div>
 
-          <h5 class="mb-3">Subscribe to our Newsletter</h5>
+          <h5 class="mb-3" data-i18n="footer.newsletter">
+            Subscribe to our Newsletter
+          </h5>
 
           <form id="newsletterForm" class="row justify-content-center g-2 mb-4">
             <div class="col-12 col-md-6">
@@ -352,12 +381,18 @@
                 type="email"
                 class="form-control"
                 placeholder="Enter your email"
+                data-i18n-placeholder="footer.placeholder"
+                novalidate
               />
               <div class="invalid-feedback"></div>
             </div>
 
             <div class="col-12 col-md-auto">
-              <button type="submit" class="btn product-btn w-100">
+              <button
+                type="submit"
+                class="btn product-btn w-100"
+                data-i18n="footer.subscribe"
+              >
                 Subscribe
               </button>
             </div>
@@ -365,7 +400,9 @@
 
           <hr />
 
-          <p class="mb-0">© 2026 BrewNest. All Rights Reserved.</p>
+          <p class="mb-0" data-i18n="footer.copyright">
+            © 2026 BrewNest. All Rights Reserved.
+          </p>
         </div>
       </div>
     </footer>

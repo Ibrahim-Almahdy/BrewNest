@@ -1,0 +1,29 @@
+{
+  "nav.home": "الرئيسية",
+  "nav.about": "من نحن",
+  "nav.products": "المنتجات",
+  "nav.distributors": "الموزعون",
+  "nav.contact": "تواصل معنا",
+  "nav.cart": "السلة",
+  "nav.language": "English",
+
+  "hero.slide1.title": "قهوة فاخرة",
+  "hero.slide1.description": "محمصة طازجة كل يوم",
+
+  "hero.slide2.title": "تجربة قهوة أصيلة",
+  "hero.slide2.description": "محضرة بعناية واهتمام بأدق التفاصيل",
+
+  "hero.slide3.title": "أفضل حبوب القهوة",
+  "hero.slide3.description": "حبوب عالية الجودة من أفضل المزارع حول العالم.",
+
+  "hero.slide4.title": "رائحة قهوة غنية",
+  "hero.slide4.description": "استمتع بالمذاق الأصيل والرائحة التي لا تُنسى",
+
+  "hero.slide5.title": "ابدأ رحلتك مع القهوة",
+  "hero.slide5.description": "اكتشف مجموعتنا المميزة من القهوة اليوم.",
+  "footer.description": "استمتع بقهوة فاخرة مصنوعة من أجود أنواع الحبوب.",
+  "footer.newsletter": "اشترك في نشرتنا البريدية",
+  "footer.placeholder": "أدخل بريدك الإلكتروني",
+  "footer.subscribe": "اشترك",
+  "footer.copyright": "© 2026 BrewNest. جميع الحقوق محفوظة."
+}
