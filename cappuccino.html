@@ -122,16 +122,21 @@
               aria-label="Slide 3"
             ></button>
           </div>
+
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img
                 src="./src/assets/images/products/cappuccino/1.jpg"
                 class="d-block w-100"
-                alt="cappuccino Slide 1"
+                alt="Cappuccino Slide 1"
               />
+
               <div class="carousel-caption d-none d-md-block">
-                <h5>Cappuccino</h5>
-                <p>Rich espresso with creamy steamed milk.</p>
+                <h5 data-i18n="cappuccino.hero.slide1.title">Cappuccino</h5>
+
+                <p data-i18n="cappuccino.hero.slide1.description">
+                  Rich espresso with creamy steamed milk.
+                </p>
               </div>
             </div>
 
@@ -139,11 +144,15 @@
               <img
                 src="./src/assets/images/products/cappuccino/2.jpg"
                 class="d-block w-100"
-                alt="cappuccino Slide 2"
+                alt="Cappuccino Slide 2"
               />
+
               <div class="carousel-caption d-none d-md-block">
-                <h5>Fresh & Smooth</h5>
-                <p>Crafted from premium coffee beans.</p>
+                <h5 data-i18n="cappuccino.hero.slide2.title">Fresh & Smooth</h5>
+
+                <p data-i18n="cappuccino.hero.slide2.description">
+                  Crafted from premium coffee beans.
+                </p>
               </div>
             </div>
 
@@ -151,11 +160,17 @@
               <img
                 src="./src/assets/images/products/cappuccino/3.jpg"
                 class="d-block w-100"
-                alt="cappuccino Slide 3"
+                alt="Cappuccino Slide 3"
               />
+
               <div class="carousel-caption d-none d-md-block">
-                <h5>Perfect Every Day</h5>
-                <p>Enjoy the authentic Italian cappuccino experience.</p>
+                <h5 data-i18n="cappuccino.hero.slide3.title">
+                  Perfect Every Day
+                </h5>
+
+                <p data-i18n="cappuccino.hero.slide3.description">
+                  Enjoy the authentic Italian cappuccino experience.
+                </p>
               </div>
             </div>
           </div>
@@ -186,7 +201,7 @@
       <section class="product-info py-5">
         <div class="container">
           <div class="card border-0 shadow-sm p-4">
-            <h2 class="mb-3">Cappuccino</h2>
+            <h2 class="mb-3" data-i18n="cappuccino.info.title">Cappuccino</h2>
 
             <div class="d-flex align-items-center gap-2 mb-3">
               <span class="text-warning">
@@ -201,7 +216,7 @@
 
             <h4 class="text-primary fw-bold mb-4">$8.99</h4>
 
-            <p class="text-muted mb-4">
+            <p class="text-muted mb-4" data-i18n="cappuccino.info.description">
               Cappuccino is a traditional Italian coffee made with espresso and
               steamed milk, topped with a layer of creamy milk foam. It is often
               served with cocoa powder or sugar and is known for its rich flavor
@@ -211,7 +226,7 @@
             <div class="mt-4">
               <button class="btn product-btn px-4 py-2">
                 <i class="bi bi-cart-plus me-2"></i>
-                Add To Cart
+                <span data-i18n="cappuccino.info.button"> Add To Cart </span>
               </button>
             </div>
           </div>
@@ -221,7 +236,9 @@
       <!-- Customer Reviews -->
       <section class="reviews py-5">
         <div class="container">
-          <h2 class="text-center mb-5">Customer Reviews</h2>
+          <h2 class="text-center mb-5" data-i18n="cappuccino.reviews.title">
+            Customer Reviews
+          </h2>
 
           <div class="row g-4">
             <div class="col-md-4">
@@ -234,9 +251,12 @@
                   <i class="bi bi-star-fill"></i>
                 </div>
 
-                <h5>Ahmed Ali</h5>
+                <h5 data-i18n="cappuccino.reviews.review1.name">Ahmed Ali</h5>
 
-                <p class="text-muted mb-0">
+                <p
+                  class="text-muted mb-0"
+                  data-i18n="cappuccino.reviews.review1.comment"
+                >
                   Excellent coffee with a rich flavor and creamy texture. Highly
                   recommended!
                 </p>
@@ -253,9 +273,14 @@
                   <i class="bi bi-star-half"></i>
                 </div>
 
-                <h5>Sara Mohamed</h5>
+                <h5 data-i18n="cappuccino.reviews.review2.name">
+                  Sara Mohamed
+                </h5>
 
-                <p class="text-muted mb-0">
+                <p
+                  class="text-muted mb-0"
+                  data-i18n="cappuccino.reviews.review2.comment"
+                >
                   Fresh taste, fast delivery, and premium quality. I will
                   definitely order again.
                 </p>
@@ -272,9 +297,12 @@
                   <i class="bi bi-star-fill"></i>
                 </div>
 
-                <h5>Omar Hassan</h5>
+                <h5 data-i18n="cappuccino.reviews.review3.name">Omar Hassan</h5>
 
-                <p class="text-muted mb-0">
+                <p
+                  class="text-muted mb-0"
+                  data-i18n="cappuccino.reviews.review3.comment"
+                >
                   One of the best cappuccinos I've ever tried. Smooth,
                   delicious, and worth every sip.
                 </p>
@@ -287,7 +315,9 @@
       <!-- Similar Products -->
       <section class="products py-5">
         <div class="container">
-          <h2 class="text-center mb-5">Similar Products</h2>
+          <h2 class="text-center mb-5" data-i18n="cappuccino.similar.title">
+            Similar Products
+          </h2>
 
           <div class="row justify-content-center g-4">
             <!-- Turkish Coffee -->
@@ -300,15 +330,25 @@
                 />
 
                 <div class="card-body text-center">
-                  <h5 class="card-title">Turkish Coffee</h5>
+                  <h5
+                    class="card-title"
+                    data-i18n="cappuccino.similar.turkish.title"
+                  >
+                    Turkish Coffee
+                  </h5>
 
-                  <p class="card-text">
+                  <p
+                    class="card-text"
+                    data-i18n="cappuccino.similar.turkish.description"
+                  >
                     Traditional Turkish coffee prepared with finely ground beans
                     and authentic taste.
                   </p>
 
                   <a href="turkish-coffee.html" class="btn product-btn">
-                    View Product
+                    <span data-i18n="cappuccino.similar.button">
+                      View Product
+                    </span>
                   </a>
                 </div>
               </div>
@@ -324,15 +364,25 @@
                 />
 
                 <div class="card-body text-center">
-                  <h5 class="card-title">Coffee</h5>
+                  <h5
+                    class="card-title"
+                    data-i18n="cappuccino.similar.coffee.title"
+                  >
+                    Coffee
+                  </h5>
 
-                  <p class="card-text">
+                  <p
+                    class="card-text"
+                    data-i18n="cappuccino.similar.coffee.description"
+                  >
                     Fresh brewed coffee made from premium beans with a rich and
                     smooth flavor.
                   </p>
 
                   <a href="coffee.html" class="btn product-btn">
-                    View Product
+                    <span data-i18n="cappuccino.similar.button">
+                      View Product
+                    </span>
                   </a>
                 </div>
               </div>

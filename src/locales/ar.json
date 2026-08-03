@@ -97,5 +97,151 @@
   "distributors.tanta.location": "طنطا، الغربية",
 
   "distributors.upper.title": "قهوة صعيد مصر",
-  "distributors.upper.location": "مدينة أسيوط"
+  "distributors.upper.location": "مدينة أسيوط",
+
+  "contactHero.slide1.title": "تواصل معنا",
+  "contactHero.slide1.description": "يسعدنا التواصل معك. تواصل مع فريقنا في أي وقت.",
+
+  "contactHero.slide2.title": "زر مكتبنا",
+  "contactHero.slide2.description": "اعثر على موقعنا واستمتع بأفضل تجربة قهوة.",
+
+  "contactHero.slide3.title": "نحن هنا لمساعدتك",
+  "contactHero.slide3.description": "أرسل إلينا استفساراتك وسنرد عليك في أقرب وقت.",
+
+  "contact.location.title": "موقعنا",
+
+  "contact.hours.title": "ساعات العمل",
+
+  "contact.hours.weekdays.title": "الأحد - الخميس",
+  "contact.hours.weekdays.time": "8:00 صباحًا - 12:00 منتصف الليل",
+
+  "contact.hours.friday.title": "الجمعة",
+  "contact.hours.friday.time": "2:00 ظهرًا - 2:00 صباحًا",
+
+  "contact.hours.saturday.title": "السبت",
+  "contact.hours.saturday.time": "12:00 ظهرًا - 12:00 منتصف الليل",
+
+  "contact.form.title": "أرسل لنا رسالة",
+
+  "contact.form.fullName.label": "الاسم الكامل",
+  "contact.form.fullName.placeholder": "أدخل اسمك الكامل",
+
+  "contact.form.email.label": "البريد الإلكتروني",
+  "contact.form.email.placeholder": "أدخل بريدك الإلكتروني",
+
+  "contact.form.subject.label": "الموضوع",
+  "contact.form.subject.placeholder": "موضوع الرسالة",
+
+  "contact.form.message.label": "الرسالة",
+  "contact.form.message.placeholder": "اكتب رسالتك هنا...",
+
+  "contact.form.button": "إرسال الرسالة",
+
+  "coffeeHero.slide1.title": "القهوة",
+  "coffeeHero.slide1.description": "قهوة طازجة محضرة من أجود أنواع الحبوب المحمصة.",
+
+  "coffeeHero.slide2.title": "رائحة غنية",
+  "coffeeHero.slide2.description": "استمتع بمذاق قوي وتجربة قهوة لا تُنسى.",
+
+  "coffeeHero.slide3.title": "بداية مثالية لكل صباح",
+  "coffeeHero.slide3.description": "ابدأ يومك بكوب قهوة ناعم يمنحك النشاط والحيوية.",
+
+  "coffee.product.title": "القهوة",
+
+  "coffee.product.description": "تُعد القهوة من أكثر المشروبات شعبية في العالم، وتُحضَّر من حبوب قهوة محمصة بعناية لتمنحك رائحة غنية ومذاقًا متوازنًا وطاقة تدوم مع كل كوب.",
+
+  "coffee.info.button": "أضف إلى السلة",
+
+  "coffee.reviews.title": "آراء العملاء",
+
+  "coffee.reviews.review1.name": "جون سميث",
+  "coffee.reviews.review1.comment": "رائحة غنية ومذاق ناعم. بداية مثالية ليومي.",
+
+  "coffee.reviews.review2.name": "إيميلي ديفيس",
+  "coffee.reviews.review2.comment": "جودة ممتازة ومذاق متوازن. أنصح بها بشدة.",
+
+  "coffee.reviews.review3.name": "مايكل براون",
+  "coffee.reviews.review3.comment": "حبوب محمصة طازجة برائحة رائعة. سأشتريها مرة أخرى.",
+
+  "coffee.similar.title": "منتجات مشابهة",
+
+  "coffee.similar.cappuccino.title": "كابتشينو",
+  "coffee.similar.cappuccino.description": "إسبريسو غني ممزوج بالحليب المبخر ومغطى برغوة حليب كريمية.",
+
+  "coffee.similar.turkish.title": "القهوة التركية",
+  "coffee.similar.turkish.description": "قهوة تركية تقليدية محضرة من حبوب مطحونة ناعمًا بمذاق أصيل.",
+
+  "coffee.similar.button": "عرض المنتج",
+
+  "cappuccino.hero.slide1.title": "كابتشينو",
+  "cappuccino.hero.slide1.description": "إسبريسو غني مع حليب مبخر كريمي.",
+
+  "cappuccino.hero.slide2.title": "طازج وناعم",
+  "cappuccino.hero.slide2.description": "مصنوع من أجود أنواع حبوب القهوة.",
+
+  "cappuccino.hero.slide3.title": "مثالي كل يوم",
+  "cappuccino.hero.slide3.description": "استمتع بتجربة الكابتشينو الإيطالي الأصيلة.",
+
+  "cappuccino.info.title": "كابتشينو",
+
+  "cappuccino.info.description": "الكابتشينو هو مشروب قهوة إيطالي تقليدي يُحضَّر من الإسبريسو والحليب المبخر، ويُغطى بطبقة من رغوة الحليب الكريمية. يُقدَّم غالبًا مع مسحوق الكاكاو أو السكر ويتميز بمذاقه الغني وقوامه الناعم.",
+
+  "cappuccino.info.button": "أضف إلى السلة",
+
+  "cappuccino.reviews.title": "آراء العملاء",
+
+  "cappuccino.reviews.review1.name": "أحمد علي",
+  "cappuccino.reviews.review1.comment": "قهوة ممتازة بمذاق غني وقوام كريمي. أنصح بها بشدة.",
+
+  "cappuccino.reviews.review2.name": "سارة محمد",
+  "cappuccino.reviews.review2.comment": "مذاق طازج، وتوصيل سريع، وجودة ممتازة. سأطلبها مرة أخرى بالتأكيد.",
+
+  "cappuccino.reviews.review3.name": "عمر حسن",
+  "cappuccino.reviews.review3.comment": "من أفضل أنواع الكابتشينو التي جربتها. ناعم، لذيذ، ويستحق كل رشفة.",
+
+  "cappuccino.similar.title": "منتجات مشابهة",
+
+  "cappuccino.similar.turkish.title": "القهوة التركية",
+  "cappuccino.similar.turkish.description": "قهوة تركية تقليدية محضرة من حبوب مطحونة ناعمًا بمذاق أصيل.",
+
+  "cappuccino.similar.coffee.title": "القهوة",
+  "cappuccino.similar.coffee.description": "قهوة طازجة محضرة من أجود أنواع الحبوب بمذاق غني ومتوازن.",
+
+  "cappuccino.similar.button": "عرض المنتج",
+
+  "turkish.hero.slide1.title": "القهوة التركية",
+  "turkish.hero.slide1.description": "قهوة تقليدية تُحضَّر من حبوب مطحونة ناعمًا.",
+
+  "turkish.hero.slide2.title": "المذاق الأصيل",
+  "turkish.hero.slide2.description": "استمتع بالمذاق الغني للقهوة التركية الكلاسيكية.",
+
+  "turkish.hero.slide3.title": "تراث عريق",
+  "turkish.hero.slide3.description": "قهوة مطحونة ناعمًا تُحضَّر وفق وصفة تقليدية أصيلة.",
+
+  "turkish.info.title": "القهوة التركية",
+
+  "turkish.info.description": "القهوة التركية مشروب تقليدي يُحضَّر من حبوب القهوة المطحونة ناعمًا. تشتهر بمذاقها الغني، وقوامها الكثيف، وطريقة تحضيرها الأصيلة التي توارثتها الأجيال.",
+
+  "turkish.info.button": "أضف إلى السلة",
+
+  "turkish.reviews.title": "آراء العملاء",
+
+  "turkish.reviews.review1.name": "علي حسن",
+  "turkish.reviews.review1.comment": "مذاق أصيل ورائحة غنية تذكرني بالمقاهي التقليدية.",
+
+  "turkish.reviews.review2.name": "فاطمة أحمد",
+  "turkish.reviews.review2.comment": "مذاق ناعم وغني، وتحضير مثالي. استمتعت بكل رشفة.",
+
+  "turkish.reviews.review3.name": "محمد صلاح",
+  "turkish.reviews.review3.comment": "من أفضل أنواع القهوة التركية التي تذوقتها. أنصح بها بشدة.",
+
+  "turkish.similar.title": "منتجات مشابهة",
+
+  "turkish.similar.cappuccino.title": "كابتشينو",
+  "turkish.similar.cappuccino.description": "إسبريسو غني ممزوج بالحليب المبخر ومغطى برغوة حليب كريمية.",
+
+  "turkish.similar.coffee.title": "القهوة",
+  "turkish.similar.coffee.description": "قهوة طازجة محضرة من أجود أنواع الحبوب بمذاق غني ومتوازن.",
+
+  "turkish.similar.button": "عرض المنتج"
 }

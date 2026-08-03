@@ -122,6 +122,7 @@
               aria-label="Slide 3"
             ></button>
           </div>
+
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img
@@ -129,9 +130,13 @@
                 class="d-block w-100"
                 alt="Turkish Coffee Slide 1"
               />
+
               <div class="carousel-caption d-none d-md-block">
-                <h5>Turkish Coffee</h5>
-                <p>Traditional coffee prepared with finely ground beans.</p>
+                <h5 data-i18n="turkish.hero.slide1.title">Turkish Coffee</h5>
+
+                <p data-i18n="turkish.hero.slide1.description">
+                  Traditional coffee prepared with finely ground beans.
+                </p>
               </div>
             </div>
 
@@ -141,9 +146,13 @@
                 class="d-block w-100"
                 alt="Turkish Coffee Slide 2"
               />
+
               <div class="carousel-caption d-none d-md-block">
-                <h5>Authentic Taste</h5>
-                <p>Experience the rich flavor of classic Turkish coffee.</p>
+                <h5 data-i18n="turkish.hero.slide2.title">Authentic Taste</h5>
+
+                <p data-i18n="turkish.hero.slide2.description">
+                  Experience the rich flavor of classic Turkish coffee.
+                </p>
               </div>
             </div>
 
@@ -153,9 +162,13 @@
                 class="d-block w-100"
                 alt="Turkish Coffee Slide 3"
               />
+
               <div class="carousel-caption d-none d-md-block">
-                <h5>Rich Tradition</h5>
-                <p>Finely ground coffee brewed using a timeless recipe.</p>
+                <h5 data-i18n="turkish.hero.slide3.title">Rich Tradition</h5>
+
+                <p data-i18n="turkish.hero.slide3.description">
+                  Finely ground coffee brewed using a timeless recipe.
+                </p>
               </div>
             </div>
           </div>
@@ -186,7 +199,7 @@
       <section class="product-info py-5">
         <div class="container">
           <div class="card border-0 shadow-sm p-4">
-            <h2 class="mb-3">Turkish Coffee</h2>
+            <h2 class="mb-3" data-i18n="turkish.info.title">Turkish Coffee</h2>
 
             <div class="d-flex align-items-center gap-2 mb-3">
               <span class="text-warning">
@@ -201,7 +214,7 @@
 
             <h4 class="text-primary fw-bold mb-4">$9.49</h4>
 
-            <p class="text-muted mb-4">
+            <p class="text-muted mb-4" data-i18n="turkish.info.description">
               Turkish Coffee is a traditional beverage prepared from finely
               ground coffee beans. It is famous for its rich flavor, thick
               texture, and authentic brewing method that has been enjoyed for
@@ -211,7 +224,7 @@
             <div class="mt-4">
               <button class="btn product-btn px-4 py-2">
                 <i class="bi bi-cart-plus me-2"></i>
-                Add To Cart
+                <span data-i18n="turkish.info.button"> Add To Cart </span>
               </button>
             </div>
           </div>
@@ -221,7 +234,9 @@
       <!-- Customer Reviews -->
       <section class="reviews py-5">
         <div class="container">
-          <h2 class="text-center mb-5">Customer Reviews</h2>
+          <h2 class="text-center mb-5" data-i18n="turkish.reviews.title">
+            Customer Reviews
+          </h2>
 
           <div class="row g-4">
             <div class="col-md-4">
@@ -234,9 +249,12 @@
                   <i class="bi bi-star-fill"></i>
                 </div>
 
-                <h5>Ali Hassan</h5>
+                <h5 data-i18n="turkish.reviews.review1.name">Ali Hassan</h5>
 
-                <p class="text-muted mb-0">
+                <p
+                  class="text-muted mb-0"
+                  data-i18n="turkish.reviews.review1.comment"
+                >
                   Authentic taste with a rich aroma. It reminds me of
                   traditional coffee houses.
                 </p>
@@ -253,9 +271,12 @@
                   <i class="bi bi-star-half"></i>
                 </div>
 
-                <h5>Fatma Ahmed</h5>
+                <h5 data-i18n="turkish.reviews.review2.name">Fatma Ahmed</h5>
 
-                <p class="text-muted mb-0">
+                <p
+                  class="text-muted mb-0"
+                  data-i18n="turkish.reviews.review2.comment"
+                >
                   Smooth, flavorful, and perfectly brewed. I loved every sip.
                 </p>
               </div>
@@ -271,9 +292,12 @@
                   <i class="bi bi-star-fill"></i>
                 </div>
 
-                <h5>Mohamed Salah</h5>
+                <h5 data-i18n="turkish.reviews.review3.name">Mohamed Salah</h5>
 
-                <p class="text-muted mb-0">
+                <p
+                  class="text-muted mb-0"
+                  data-i18n="turkish.reviews.review3.comment"
+                >
                   One of the finest Turkish coffees I've ever tasted. Highly
                   recommended.
                 </p>
@@ -286,7 +310,9 @@
       <!-- Similar Products -->
       <section class="products py-5">
         <div class="container">
-          <h2 class="text-center mb-5">Similar Products</h2>
+          <h2 class="text-center mb-5" data-i18n="turkish.similar.title">
+            Similar Products
+          </h2>
 
           <div class="row justify-content-center g-4">
             <!-- Cappuccino -->
@@ -299,15 +325,25 @@
                 />
 
                 <div class="card-body text-center">
-                  <h5 class="card-title">Cappuccino</h5>
+                  <h5
+                    class="card-title"
+                    data-i18n="turkish.similar.cappuccino.title"
+                  >
+                    Cappuccino
+                  </h5>
 
-                  <p class="card-text">
+                  <p
+                    class="card-text"
+                    data-i18n="turkish.similar.cappuccino.description"
+                  >
                     Rich espresso blended with steamed milk and topped with
                     creamy milk foam.
                   </p>
 
                   <a href="cappuccino.html" class="btn product-btn">
-                    View Product
+                    <span data-i18n="turkish.similar.button">
+                      View Product
+                    </span>
                   </a>
                 </div>
               </div>
@@ -323,15 +359,25 @@
                 />
 
                 <div class="card-body text-center">
-                  <h5 class="card-title">Coffee</h5>
+                  <h5
+                    class="card-title"
+                    data-i18n="turkish.similar.coffee.title"
+                  >
+                    Coffee
+                  </h5>
 
-                  <p class="card-text">
+                  <p
+                    class="card-text"
+                    data-i18n="turkish.similar.coffee.description"
+                  >
                     Fresh brewed coffee made from premium beans with a rich and
                     smooth flavor.
                   </p>
 
                   <a href="coffee.html" class="btn product-btn">
-                    View Product
+                    <span data-i18n="turkish.similar.button">
+                      View Product
+                    </span>
                   </a>
                 </div>
               </div>

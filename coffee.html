@@ -122,6 +122,7 @@
               aria-label="Slide 3"
             ></button>
           </div>
+
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img
@@ -129,9 +130,13 @@
                 class="d-block w-100"
                 alt="Coffee Slide 1"
               />
+
               <div class="carousel-caption d-none d-md-block">
-                <h5>Coffee</h5>
-                <p>Freshly brewed from premium roasted coffee beans.</p>
+                <h5 data-i18n="coffeeHero.slide1.title">Coffee</h5>
+
+                <p data-i18n="coffeeHero.slide1.description">
+                  Freshly brewed from premium roasted coffee beans.
+                </p>
               </div>
             </div>
 
@@ -141,9 +146,11 @@
                 class="d-block w-100"
                 alt="Coffee Slide 2"
               />
+
               <div class="carousel-caption d-none d-md-block">
-                <h5>Rich Aroma</h5>
-                <p>
+                <h5 data-i18n="coffeeHero.slide2.title">Rich Aroma</h5>
+
+                <p data-i18n="coffeeHero.slide2.description">
                   Enjoy a bold flavor and an unforgettable coffee experience.
                 </p>
               </div>
@@ -155,9 +162,13 @@
                 class="d-block w-100"
                 alt="Coffee Slide 3"
               />
+
               <div class="carousel-caption d-none d-md-block">
-                <h5>Perfect Every Morning</h5>
-                <p>
+                <h5 data-i18n="coffeeHero.slide3.title">
+                  Perfect Every Morning
+                </h5>
+
+                <p data-i18n="coffeeHero.slide3.description">
                   Start your day with a smooth and energizing cup of coffee.
                 </p>
               </div>
@@ -190,7 +201,7 @@
       <section class="product-info py-5">
         <div class="container">
           <div class="card border-0 shadow-sm p-4">
-            <h2 class="mb-3">Coffee</h2>
+            <h2 class="mb-3" data-i18n="coffee.product.title">Coffee</h2>
 
             <div class="d-flex align-items-center gap-2 mb-3">
               <span class="text-warning">
@@ -205,7 +216,7 @@
 
             <h4 class="text-primary fw-bold mb-4">$7.99</h4>
 
-            <p class="text-muted mb-4">
+            <p class="text-muted mb-4" data-i18n="coffee.product.description">
               Coffee is one of the world's most popular beverages, brewed from
               carefully roasted coffee beans. It delivers a rich aroma, smooth
               flavor, and the perfect balance of taste and energy in every cup.
@@ -214,7 +225,7 @@
             <div class="mt-4">
               <button class="btn product-btn px-4 py-2">
                 <i class="bi bi-cart-plus me-2"></i>
-                Add To Cart
+                <span data-i18n="coffee.info.button">Add To Cart</span>
               </button>
             </div>
           </div>
@@ -224,7 +235,9 @@
       <!-- Customer Reviews -->
       <section class="reviews py-5">
         <div class="container">
-          <h2 class="text-center mb-5">Customer Reviews</h2>
+          <h2 class="text-center mb-5" data-i18n="coffee.reviews.title">
+            Customer Reviews
+          </h2>
 
           <div class="row g-4">
             <div class="col-md-4">
@@ -237,9 +250,12 @@
                   <i class="bi bi-star-half"></i>
                 </div>
 
-                <h5>John Smith</h5>
+                <h5 data-i18n="coffee.reviews.review1.name">John Smith</h5>
 
-                <p class="text-muted mb-0">
+                <p
+                  class="text-muted mb-0"
+                  data-i18n="coffee.reviews.review1.comment"
+                >
                   Rich aroma and smooth taste. Perfect for starting my morning.
                 </p>
               </div>
@@ -255,9 +271,12 @@
                   <i class="bi bi-star-fill"></i>
                 </div>
 
-                <h5>Emily Davis</h5>
+                <h5 data-i18n="coffee.reviews.review2.name">Emily Davis</h5>
 
-                <p class="text-muted mb-0">
+                <p
+                  class="text-muted mb-0"
+                  data-i18n="coffee.reviews.review2.comment"
+                >
                   Excellent quality with a balanced flavor. Highly recommended.
                 </p>
               </div>
@@ -273,9 +292,12 @@
                   <i class="bi bi-star-half"></i>
                 </div>
 
-                <h5>Michael Brown</h5>
+                <h5 data-i18n="coffee.reviews.review3.name">Michael Brown</h5>
 
-                <p class="text-muted mb-0">
+                <p
+                  class="text-muted mb-0"
+                  data-i18n="coffee.reviews.review3.comment"
+                >
                   Freshly roasted beans with an amazing aroma. I will buy it
                   again.
                 </p>
@@ -288,7 +310,9 @@
       <!-- Similar Products -->
       <section class="products py-5">
         <div class="container">
-          <h2 class="text-center mb-5">Similar Products</h2>
+          <h2 class="text-center mb-5" data-i18n="coffee.similar.title">
+            Similar Products
+          </h2>
 
           <div class="row justify-content-center g-4">
             <!-- Cappuccino -->
@@ -301,15 +325,25 @@
                 />
 
                 <div class="card-body text-center">
-                  <h5 class="card-title">Cappuccino</h5>
+                  <h5
+                    class="card-title"
+                    data-i18n="coffee.similar.cappuccino.title"
+                  >
+                    Cappuccino
+                  </h5>
 
-                  <p class="card-text">
+                  <p
+                    class="card-text"
+                    data-i18n="coffee.similar.cappuccino.description"
+                  >
                     Rich espresso blended with steamed milk and topped with
                     creamy milk foam.
                   </p>
 
                   <a href="cappuccino.html" class="btn product-btn">
-                    View Product
+                    <span data-i18n="coffee.similar.button">
+                      View Product
+                    </span>
                   </a>
                 </div>
               </div>
@@ -325,15 +359,25 @@
                 />
 
                 <div class="card-body text-center">
-                  <h5 class="card-title">Turkish Coffee</h5>
+                  <h5
+                    class="card-title"
+                    data-i18n="coffee.similar.turkish.title"
+                  >
+                    Turkish Coffee
+                  </h5>
 
-                  <p class="card-text">
+                  <p
+                    class="card-text"
+                    data-i18n="coffee.similar.turkish.description"
+                  >
                     Traditional Turkish coffee prepared with finely ground beans
                     and authentic taste.
                   </p>
 
                   <a href="turkish-coffee.html" class="btn product-btn">
-                    View Product
+                    <span data-i18n="coffee.similar.button">
+                      View Product
+                    </span>
                   </a>
                 </div>
               </div>

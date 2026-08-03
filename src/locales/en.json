@@ -97,5 +97,151 @@
   "distributors.tanta.location": "Tanta, Gharbia",
 
   "distributors.upper.title": "Upper Egypt Coffee",
-  "distributors.upper.location": "Assiut City"
+  "distributors.upper.location": "Assiut City",
+
+  "contactHero.slide1.title": "Contact Us",
+  "contactHero.slide1.description": "We'd love to hear from you. Get in touch with our team.",
+
+  "contactHero.slide2.title": "Visit Our Office",
+  "contactHero.slide2.description": "Find our location and enjoy the best coffee experience.",
+
+  "contactHero.slide3.title": "We're Here to Help",
+  "contactHero.slide3.description": "Send us your questions and we'll get back to you soon.",
+
+  "contact.location.title": "Our Location",
+
+  "contact.hours.title": "Working Hours",
+
+  "contact.hours.weekdays.title": "Sunday - Thursday",
+  "contact.hours.weekdays.time": "8:00 AM - 12:00 AM",
+
+  "contact.hours.friday.title": "Friday",
+  "contact.hours.friday.time": "2:00 PM - 2:00 AM",
+
+  "contact.hours.saturday.title": "Saturday",
+  "contact.hours.saturday.time": "12:00 PM - 12:00 AM",
+
+  "contact.form.title": "Send Us a Message",
+
+  "contact.form.fullName.label": "Full Name",
+  "contact.form.fullName.placeholder": "Enter your full name",
+
+  "contact.form.email.label": "Email",
+  "contact.form.email.placeholder": "Enter your email",
+
+  "contact.form.subject.label": "Subject",
+  "contact.form.subject.placeholder": "Message subject",
+
+  "contact.form.message.label": "Message",
+  "contact.form.message.placeholder": "Write your message here...",
+
+  "contact.form.button": "Send Message",
+
+  "coffeeHero.slide1.title": "Coffee",
+  "coffeeHero.slide1.description": "Freshly brewed from premium roasted coffee beans.",
+
+  "coffeeHero.slide2.title": "Rich Aroma",
+  "coffeeHero.slide2.description": "Enjoy a bold flavor and an unforgettable coffee experience.",
+
+  "coffeeHero.slide3.title": "Perfect Every Morning",
+  "coffeeHero.slide3.description": "Start your day with a smooth and energizing cup of coffee.",
+
+  "coffee.product.title": "Coffee",
+
+  "coffee.product.description": "Coffee is one of the world's most popular beverages, brewed from carefully roasted coffee beans. It delivers a rich aroma, smooth flavor, and the perfect balance of taste and energy in every cup.",
+
+  "coffee.info.button": "Add To Cart",
+
+  "coffee.reviews.title": "Customer Reviews",
+
+  "coffee.reviews.review1.name": "John Smith",
+  "coffee.reviews.review1.comment": "Rich aroma and smooth taste. Perfect for starting my morning.",
+
+  "coffee.reviews.review2.name": "Emily Davis",
+  "coffee.reviews.review2.comment": "Excellent quality with a balanced flavor. Highly recommended.",
+
+  "coffee.reviews.review3.name": "Michael Brown",
+  "coffee.reviews.review3.comment": "Freshly roasted beans with an amazing aroma. I will buy it again.",
+
+  "coffee.similar.title": "Similar Products",
+
+  "coffee.similar.cappuccino.title": "Cappuccino",
+  "coffee.similar.cappuccino.description": "Rich espresso blended with steamed milk and topped with creamy milk foam.",
+
+  "coffee.similar.turkish.title": "Turkish Coffee",
+  "coffee.similar.turkish.description": "Traditional Turkish coffee prepared with finely ground beans and authentic taste.",
+
+  "coffee.similar.button": "View Product",
+
+  "cappuccino.hero.slide1.title": "Cappuccino",
+  "cappuccino.hero.slide1.description": "Rich espresso with creamy steamed milk.",
+
+  "cappuccino.hero.slide2.title": "Fresh & Smooth",
+  "cappuccino.hero.slide2.description": "Crafted from premium coffee beans.",
+
+  "cappuccino.hero.slide3.title": "Perfect Every Day",
+  "cappuccino.hero.slide3.description": "Enjoy the authentic Italian cappuccino experience.",
+
+  "cappuccino.info.title": "Cappuccino",
+
+  "cappuccino.info.description": "Cappuccino is a traditional Italian coffee made with espresso and steamed milk, topped with a layer of creamy milk foam. It is often served with cocoa powder or sugar and is known for its rich flavor and smooth texture.",
+
+  "cappuccino.info.button": "Add To Cart",
+
+  "cappuccino.reviews.title": "Customer Reviews",
+
+  "cappuccino.reviews.review1.name": "Ahmed Ali",
+  "cappuccino.reviews.review1.comment": "Excellent coffee with a rich flavor and creamy texture. Highly recommended.",
+
+  "cappuccino.reviews.review2.name": "Sara Mohamed",
+  "cappuccino.reviews.review2.comment": "Fresh taste, fast delivery, and premium quality. I will definitely order again.",
+
+  "cappuccino.reviews.review3.name": "Omar Hassan",
+  "cappuccino.reviews.review3.comment": "One of the best cappuccinos I've ever tried. Smooth, delicious, and worth every sip.",
+
+  "cappuccino.similar.title": "Similar Products",
+
+  "cappuccino.similar.turkish.title": "Turkish Coffee",
+  "cappuccino.similar.turkish.description": "Traditional Turkish coffee prepared with finely ground beans and authentic taste.",
+
+  "cappuccino.similar.coffee.title": "Coffee",
+  "cappuccino.similar.coffee.description": "Fresh brewed coffee made from premium beans with a rich and smooth flavor.",
+
+  "cappuccino.similar.button": "View Product",
+
+  "turkish.hero.slide1.title": "Turkish Coffee",
+  "turkish.hero.slide1.description": "Traditional coffee prepared with finely ground beans.",
+
+  "turkish.hero.slide2.title": "Authentic Taste",
+  "turkish.hero.slide2.description": "Experience the rich flavor of classic Turkish coffee.",
+
+  "turkish.hero.slide3.title": "Rich Tradition",
+  "turkish.hero.slide3.description": "Finely ground coffee brewed using a timeless recipe.",
+
+  "turkish.info.title": "Turkish Coffee",
+
+  "turkish.info.description": "Turkish Coffee is a traditional beverage prepared from finely ground coffee beans. It is famous for its rich flavor, thick texture, and authentic brewing method that has been enjoyed for generations.",
+
+  "turkish.info.button": "Add To Cart",
+
+  "turkish.reviews.title": "Customer Reviews",
+
+  "turkish.reviews.review1.name": "Ali Hassan",
+  "turkish.reviews.review1.comment": "Authentic taste with a rich aroma. It reminds me of traditional coffee houses.",
+
+  "turkish.reviews.review2.name": "Fatma Ahmed",
+  "turkish.reviews.review2.comment": "Smooth, flavorful, and perfectly brewed. I loved every sip.",
+
+  "turkish.reviews.review3.name": "Mohamed Salah",
+  "turkish.reviews.review3.comment": "One of the finest Turkish coffees I've ever tasted. Highly recommended.",
+
+  "turkish.similar.title": "Similar Products",
+
+  "turkish.similar.cappuccino.title": "Cappuccino",
+  "turkish.similar.cappuccino.description": "Rich espresso blended with steamed milk and topped with creamy milk foam.",
+
+  "turkish.similar.coffee.title": "Coffee",
+  "turkish.similar.coffee.description": "Fresh brewed coffee made from premium beans with a rich and smooth flavor.",
+
+  "turkish.similar.button": "View Product"
 }
