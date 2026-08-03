@@ -6,12 +6,15 @@
   justify-content: center;
   gap: 0.6rem;
 
+  padding: 0.65rem 1.4rem;
+  font-size: 1rem;
+
   border: 2px solid $primary;
   color: $primary;
   transition: $transition;
 
   i {
-    font-size: 1.15rem;
+    font-size: 1.2rem;
     line-height: 1;
     color: inherit;
   }
@@ -24,12 +27,6 @@
 
   &:focus {
     box-shadow: none;
-  }
-}
-
-html[dir="rtl"] {
-  .cart-btn {
-    flex-direction: row-reverse;
   }
 }
 
@@ -53,7 +50,8 @@ html[dir="rtl"] {
   justify-content: center;
 
   min-width: 95px;
-  padding: 0.5rem 1rem;
+  padding: 0.65rem 1.4rem;
+  font-size: 1rem;
 
   transition: $transition;
 }
