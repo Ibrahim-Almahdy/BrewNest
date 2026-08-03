@@ -4,8 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BrewNest</title>
-    <script type="module" crossorigin src="/BrewNest/assets/main-DRIncy69.js"></script>
-    <link rel="stylesheet" crossorigin href="/BrewNest/assets/main-DtopOfX_.css">
+    <link
+      rel="icon"
+      type="image/png"
+      href="/BrewNest/assets/logo-DxJnMW5G.svg"
+    />
+    <script type="module" crossorigin src="/BrewNest/assets/main-rLiNgyi6.js"></script>
+    <link rel="stylesheet" crossorigin href="/BrewNest/assets/main--yyjn6hk.css">
   </head>
   <body>
     <header>
@@ -19,11 +24,13 @@
               src="/BrewNest/assets/logo-DxJnMW5G.svg"
               alt="BrewNest Logo"
               width="48"
+              أ
               height="48"
               class="me-2 mt-2"
             />
             BrewNest
           </a>
+
           <button
             class="navbar-toggler"
             type="button"
@@ -39,29 +46,62 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mx-auto gap-3">
               <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link" href="index.html" data-i18n="nav.home">
+                  Home
+                </a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="index.html#products">Products</a>
+                <a
+                  class="nav-link"
+                  href="index.html#products"
+                  data-i18n="nav.products"
+                >
+                  Products
+                </a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="distributors.html">Distributors</a>
+                <a
+                  class="nav-link"
+                  href="distributors.html"
+                  data-i18n="nav.distributors"
+                >
+                  Distributors
+                </a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link active" href="about.html">About</a>
+                <a
+                  class="nav-link active"
+                  href="about.html"
+                  data-i18n="nav.about"
+                >
+                  About
+                </a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
+                <a class="nav-link" href="contact.html" data-i18n="nav.contact">
+                  Contact
+                </a>
               </li>
             </ul>
-            <a href="#" class="btn btn-outline-dark rounded-pill px-4 cart-btn">
-              <i class="bi bi-cart3 me-2"></i>
-              Cart
-            </a>
+
+            <div class="mobile-actions">
+              <button
+                id="language-toggle"
+                class="btn btn-outline-secondary rounded-pill language-btn"
+                data-i18n="nav.language"
+              >
+                العربية
+              </button>
+
+              <a href="#" class="btn btn-outline-dark rounded-pill cart-btn">
+                <i class="bi bi-cart3"></i>
+                <span data-i18n="nav.cart">Cart</span>
+              </a>
+            </div>
           </div>
         </div>
       </nav>
@@ -95,16 +135,21 @@
               aria-label="Slide 3"
             ></button>
           </div>
+
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img
                 src="/BrewNest/assets/slide-1-BeRhTHtc.jpg"
                 class="d-block w-100"
-                alt="cappuccino Slide 1"
+                alt="About BrewNest"
               />
+
               <div class="carousel-caption d-none d-md-block">
-                <h5>About BrewNest</h5>
-                <p>Discover our story and passion for premium coffee.</p>
+                <h5 data-i18n="aboutHero.slide1.title">About BrewNest</h5>
+
+                <p data-i18n="aboutHero.slide1.description">
+                  Discover our story and passion for premium coffee.
+                </p>
               </div>
             </div>
 
@@ -112,11 +157,17 @@
               <img
                 src="/BrewNest/assets/slide-2-DeMh4Ssp.jpg"
                 class="d-block w-100"
-                alt="cappuccino Slide 2"
+                alt="Quality Since Day One"
               />
+
               <div class="carousel-caption d-none d-md-block">
-                <h5>Quality Since Day One</h5>
-                <p>Every cup begins with carefully selected coffee beans.</p>
+                <h5 data-i18n="aboutHero.slide2.title">
+                  Quality Since Day One
+                </h5>
+
+                <p data-i18n="aboutHero.slide2.description">
+                  Every cup begins with carefully selected coffee beans.
+                </p>
               </div>
             </div>
 
@@ -124,11 +175,17 @@
               <img
                 src="/BrewNest/assets/slide-3-BacrzAiZ.jpg"
                 class="d-block w-100"
-                alt="cappuccino Slide 3"
+                alt="Made for Coffee Lovers"
               />
+
               <div class="carousel-caption d-none d-md-block">
-                <h5>Made for Coffee Lovers</h5>
-                <p>Sharing authentic coffee experiences with every customer.</p>
+                <h5 data-i18n="aboutHero.slide3.title">
+                  Made for Coffee Lovers
+                </h5>
+
+                <p data-i18n="aboutHero.slide3.description">
+                  Sharing authentic coffee experiences with every customer.
+                </p>
               </div>
             </div>
           </div>
@@ -159,22 +216,24 @@
       <section class="about py-5">
         <div class="container">
           <div class="card border-0 shadow-sm p-5">
-            <h2 class="text-center mb-4">Our Story</h2>
+            <h2 class="text-center mb-4" data-i18n="about.story.title">
+              Our Story
+            </h2>
 
-            <p class="text-muted mb-4">
+            <p class="text-muted mb-4" data-i18n="about.story.paragraph1">
               BrewNest was founded with a passion for delivering premium coffee
               made from carefully selected beans. From the very beginning, our
               goal has been to provide customers with fresh coffee, exceptional
               quality, and an authentic coffee experience.
             </p>
 
-            <p class="text-muted mb-4">
+            <p class="text-muted mb-4" data-i18n="about.story.paragraph2">
               Over the years, we have built strong relationships with trusted
               coffee growers and distributors around the world. Every product is
               carefully prepared to preserve its rich aroma and unique flavor.
             </p>
 
-            <p class="text-muted mb-0">
+            <p class="text-muted mb-0" data-i18n="about.story.paragraph3">
               Today, BrewNest continues its journey by serving coffee lovers
               with high-quality products while maintaining the values of
               excellence, freshness, and customer satisfaction.
@@ -202,7 +261,7 @@
             BrewNest
           </a>
 
-          <p class="mt-3 mb-4">
+          <p class="mt-3 mb-4" data-i18n="footer.description">
             Enjoy premium coffee made from the finest beans.
           </p>
 
@@ -213,22 +272,32 @@
             <a href="#"><i class="bi bi-youtube"></i></a>
           </div>
 
-          <h5 class="mb-3">Subscribe to our Newsletter</h5>
+          <h5 class="mb-3" data-i18n="footer.newsletter">
+            Subscribe to our Newsletter
+          </h5>
 
-          <form id="newsletterForm" class="row justify-content-center g-2 mb-4">
+          <form
+            id="newsletterForm"
+            class="row justify-content-center align-items-center g-2 mb-4"
+          >
             <div class="col-12 col-md-6">
               <input
                 id="newsletterEmail"
                 type="email"
                 class="form-control"
                 placeholder="Enter your email"
+                data-i18n-placeholder="footer.placeholder"
                 novalidate
               />
               <div class="invalid-feedback"></div>
             </div>
 
             <div class="col-12 col-md-auto">
-              <button type="submit" class="btn product-btn w-100">
+              <button
+                type="submit"
+                class="btn product-btn w-100"
+                data-i18n="footer.subscribe"
+              >
                 Subscribe
               </button>
             </div>
@@ -236,7 +305,9 @@
 
           <hr />
 
-          <p class="mb-0">© 2026 BrewNest. All Rights Reserved.</p>
+          <p class="mb-0" data-i18n="footer.copyright">
+            © 2026 BrewNest. All Rights Reserved.
+          </p>
         </div>
       </div>
     </footer>
